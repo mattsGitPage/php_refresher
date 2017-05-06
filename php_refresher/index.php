@@ -61,52 +61,7 @@
 	staticTest();
 	//---------------------------------
 
-    //dealing with different datatypes var_dump reveals the passed values type
-    $temp = 5757;
-    var_dump($temp);
-    //------- works with all data types
 
-    //using arrays w/ vardump returns all the size of array as well as values sizes
-    $values =array("one" , "two" , "three");
-    var_dump($values);
-    //-------------------
-
-
-    //objects in php
-    class Animal{
-        function animal(){
-            $this->type = "dog";
-        }
-    }
-
-    //instantiate an object
-    $that_dog = new Animal();
-    echo $that_dog->type , "</br>";
-    //------------------------------
-
-    //using system fucntions
-    echo strlen("finding the length of this string");
-    echo("</br>");
-    echo str_word_count("finding the number of words in this string");
-    echo("</br>");
-    echo strrev("reversing the entire string");
-    echo("</br>");
-    echo strpos("finding a word in a string returns the starting index of the found word" , "word");
-    echo("</br>");
-    echo("str_replace replaces a word in a string with specifed value </br>");
-    echo str_replace("word to replace" , "replaced word to replace", "word to replace");
-    echo("</br>");
-    echo("tons more functions see documentation </br>");
-
-    //----------------------
-
-    //using define to label constants
-    define("GREETING", "welcome to a constant");
-    function testConstants(){
-        echo GREETING;
-    }
-    testConstants();
-    //----------------------
 
     ?>
 
