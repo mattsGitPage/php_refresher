@@ -172,6 +172,67 @@
     //--------------------------------
 
 
+    //conditional operators
+    $check = 1;
+    if($check){
+        echo("if check done </br>");
+    }
+    //all the rest are like any other language
+    //------------------------------
+
+    //passing parameters in a function
+    function passArgument($args){
+        echo "$args passed </br>";
+    }
+    passArgument("first arg");
+    passArgument("second arg");
+    //works the same with multiple parameters
+
+    //passing to function with default values
+    function defaultArg($arg = 30){
+        echo "the arg is : $arg <br>";
+    }
+    defaultArg(400);
+    defaultArg();
+    //-------------
+    
+    //returning values for functions
+    function sum($s, $z)
+    {
+        $z = $s+$z;
+        return $z;
+    }
+    echo "testing values passed to fucntion with return <br>";
+    echo sum(4,4) . "<br>";
+    echo sum(4,2) . "<br>";
+    //---------------------------------
+
+    //indexed arrays
+    $temp_array = array("item1" , "item2" , "item3");
+    echo "temp array contents " . $temp_array[0] . ", " . $temp_array[1] . " and " . $temp_array[2];
+    //get count of array
+    echo count($temp_array) . "<br>";
+
+    //iterating through array
+    echo "iterating through an array <br>";
+    $length = count($temp_array);
+    for($i = 0 ; $i < $length; $i++)
+    {
+        echo $temp_array[$i];
+        echo "<br>";
+    }
+    //----------------
+
+    //associative arrays
+    echo "associative array";
+    $name_array = array("name1" => "35" , "name2" => "33" , "name3" => "22");
+
+    echo "name1 is " . $name_array['name1'] . " years old";
+
+
+
+
+
     ?>
 
 </body>
