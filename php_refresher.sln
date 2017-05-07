@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "php_refresher", "php_refresher\php_refresher.phpproj", "{DCF073F7-070F-438A-8FC6-7463B61CC545}"
 EndProject
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "php_testing_forms", "php_testing_forms\php_testing_forms.phpproj", "{F63EEB55-4F5E-4D57-AB1C-4EFEBBB0A61B}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPformTest.php", "PHPformTest.php\PHPformTest.php.phpproj", "{35A93A36-DDE6-4E31-B194-998A2AC01465}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DCF073F7-070F-438A-8FC6-7463B61CC545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCF073F7-070F-438A-8FC6-7463B61CC545}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F63EEB55-4F5E-4D57-AB1C-4EFEBBB0A61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F63EEB55-4F5E-4D57-AB1C-4EFEBBB0A61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A93A36-DDE6-4E31-B194-998A2AC01465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A93A36-DDE6-4E31-B194-998A2AC01465}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
