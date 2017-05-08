@@ -7,6 +7,10 @@ Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "php_refresher", "php_refres
 EndProject
 Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPformTest.php", "PHPformTest.php\PHPformTest.php.phpproj", "{35A93A36-DDE6-4E31-B194-998A2AC01465}"
 EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "advancedPHP", "advancedPHP\advancedPHP.phpproj", "{D4E409DC-B029-42DF-8CBF-D4C5B625E7DA}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "database_integration", "database_integration\database_integration.phpproj", "{DD5DD4D7-7A04-47BE-8256-BBA84AEB6B3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{DCF073F7-070F-438A-8FC6-7463B61CC545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A93A36-DDE6-4E31-B194-998A2AC01465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35A93A36-DDE6-4E31-B194-998A2AC01465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E409DC-B029-42DF-8CBF-D4C5B625E7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E409DC-B029-42DF-8CBF-D4C5B625E7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5DD4D7-7A04-47BE-8256-BBA84AEB6B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5DD4D7-7A04-47BE-8256-BBA84AEB6B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
